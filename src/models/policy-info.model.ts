@@ -28,6 +28,9 @@ export class PolicyInfo extends BaseModel {
   @Prop()
   end: Date;
 
+  @Prop()
+  type: string;
+
   @Prop({ ref: PolicyCategory.name, type: ObjectId })
   category_id: ObjectId;
 

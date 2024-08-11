@@ -16,7 +16,7 @@ export class Logs {
   //TODO: define log schema here
 }
 export class BaseModel {
-  readonly _id: ObjectId | string;
+  readonly _id: ObjectId;
   readonly created_at: Date;
   updated_at: Date;
   created_by: CreatedBy;

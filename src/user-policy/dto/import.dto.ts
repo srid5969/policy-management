@@ -1,0 +1,30 @@
+export interface ImportPolicyDto {
+  agent: string;
+  userType: string;
+  policy_mode: string;
+  producer: string;
+  policy_number: string;
+  premium_amount_written: string;
+  premium_amount: string;
+  policy_type: string;
+  company_name: string;
+  category_name: string;
+  policy_start_date: Date;
+  policy_end_date: Date;
+  csr: string;
+  account_name: string;
+  email: string;
+  gender: string;
+  firstname: string;
+  city: string;
+  account_type: string;
+  phone: string;
+  address: string;
+  state: string;
+  zip: string;
+  dob: Date;
+  primary: string;
+  'Applicant ID': string;
+  agency_id: string;
+  'hasActive ClientPolicy': string;
+}
